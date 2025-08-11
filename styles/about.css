@@ -1,0 +1,55 @@
+header{
+  background-color: #FBA300;
+}
+header li{
+  color: white;
+}
+body{
+  height: 150vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.container{
+  min-width: 0;
+  width: 96%;
+  padding: 1rem;
+}
+main{
+  overflow-wrap: break-word;  
+  white-space: normal;
+}
+h2{
+  font-family: 'Parisienne', sans-serif;
+  font-weight: 400;
+  color: #F81000;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h5{
+  color: orange;
+  margin-bottom: 1rem;
+}
+p{
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+li{
+  color: black;
+ line-height: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+span{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.img{
+  margin-top: -100px;
+}
+.back-arrow{
+  position: absolute;
+  top: 8rem;
+  left: 3rem;
+}
