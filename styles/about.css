@@ -35,7 +35,7 @@ p{
   font-size: 1.2rem;
 }
 
-li{
+.about-list{
   color: black;
  line-height: 2rem;
   font-size: 1.2rem;
@@ -50,6 +50,6 @@ span{
 }
 .back-arrow{
   position: absolute;
-  top: 8rem;
-  left: 3rem;
+  top: 6rem;
+  left: 1rem;
 }
