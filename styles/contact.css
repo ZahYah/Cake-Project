@@ -27,7 +27,7 @@ h2{
   left: 0;
 }
 .contact{
-  outline: 2px solid green;
+  margin-left: -3rem;
   padding: 1rem;
   gap: 3rem;
 }
@@ -44,15 +44,49 @@ color: white;
 font-size: 1.2rem;
 opacity: 0.6;
 }
-.contact label{
+.contact label, .help-details p{
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 textarea{
   height: 10rem;
 }
 
+
+#contact-message:focus, #contact-message:active{
+background-color: #FBA300;
+}
+.submit-btn{
+  background-color:#C9102B ;
+  color: white;
+  height: 3rem;
+width: 7rem;
+border-radius: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+}
 .customer-care{
-  outline: 2px solid red;
   padding: 1rem;
+  position: relative;
+}
+.help-details{
+  height: 15rem;
+  width: 50%;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.socials{
+    position: absolute;
+    bottom: 5rem;
+    right: 3rem;
+}
+ .help-details div img{
+  height: 2rem;
+  width: 2rem;
+ }
+.socials img{
+  height: 1.5rem;
+  width: 1.5rem;
 }
