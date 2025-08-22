@@ -1,0 +1,91 @@
+body {
+  height: 150vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+header {
+  background-color: #fba300;
+}
+h2 {
+  font-weight: 400;
+ font-family: "Parisienne", sans-serif;
+  color: #f81000;
+  text-align: center;
+  width: 100%;
+}
+.container {
+  width: 99%;
+  padding: 1rem;
+}
+.top{
+  margin-bottom: 1rem;
+}
+
+.cake{
+  border: 1px solid #EE0979;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+  width: 95%;
+  margin: 0 auto;
+}
+.div-1{
+  flex: 1;
+}
+.div-2{
+  flex: 2;
+}
+.div-3{
+  flex:1
+}
+h3{
+  color: #F81000;
+  font-weight: 300;
+}
+p,span{
+font-size: 1.2rem;
+}
+p{
+gap: 6rem;
+}
+.add-icon{
+  gap: 1rem;
+}
+.add-icon button{
+  background-color: #EE097921;
+  color: #C9102B;
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.add-icon svg{
+  cursor: pointer;
+}
+.item-btn{
+  color: white;
+  background-color: #C9102B;
+  border: none;
+  font-size: 1.2rem;
+  width: 2rem;
+  padding: 0.1rem 1.2rem;
+  border-radius: 4px;
+}
+.bottom{
+  gap: 5rem;
+  margin-top: 4rem;
+}
+.bottom button{
+  background-color: #C9102B;
+  color: white;
+  width: 12rem;
+  height: 3rem;
+  border: none;
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}

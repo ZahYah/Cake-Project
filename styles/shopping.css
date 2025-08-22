@@ -1,0 +1,84 @@
+body {
+  height: 120vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+header {
+  background-color: #fba300;
+}
+h2 {
+  font-weight: 400;
+ font-family: "Parisienne", sans-serif;
+  color: #f81000;
+  text-align: center;
+  width: 100%;
+}
+.container {
+  width: 99%;
+  padding: 1rem;
+}
+h3{
+  color: #FA6800;
+  text-align: center;
+  font-weight: 500;
+}
+.form-row{
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0rem;
+}
+.form-row input, .form-row select, .form-row textarea{
+  border: 1px solid #FF543E;
+  flex: 1;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.form-row textarea {
+  height: 80px;
+  resize: none;
+}
+.form-row label {
+  width: 150px; /* fixed width for labels */
+  font-size: 1.2rem;
+}
+.order{
+  border: 1px solid #FF543E;
+  padding: 1rem;
+  border-radius: 5px;
+  height: 65vh;
+  margin-top: 1rem;
+}
+.img{
+  height: 10rem;
+  width: 15rem;
+  border-radius: 10px;
+}
+.div-2 div{
+  margin-bottom: 1rem;
+}
+p{
+  font-size: 1rem;
+}
+.div-2 div p:first-child{
+  width: 100px;
+}
+.div-2 div p:last-child{
+  width: 60px;
+  text-align: start;
+}
+.pay{
+  background-color:rgb(5, 184, 5);
+  border: none;
+  color: white;
+width: 8rem;
+height: 3rem;
+font-size: 1.2rem;
+letter-spacing: 1px;
+border-radius: 5px;
+padding: 1rem;
+text-align: center;
+font-weight: 500;
+margin-top: 1rem;
+}
